@@ -6,6 +6,7 @@ require 'csv'
   end
 
   def upload
+    CSV.foreach(params[:leads].path, headers: true) do |lead|)
 
   end
 
